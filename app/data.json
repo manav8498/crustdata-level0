@@ -1,5 +1,6 @@
 {
     "search for people": "Use the /screener/person/search endpoint with appropriate filters (CURRENT_COMPANY, CURRENT_TITLE, REGION, etc.).",
     "region": "There is a strict list of region values. Check out https://crustdata-docs-region-json.s3.us-east-2.amazonaws.com/updated_regions.json.",
+    "email/enrichment": "Yes, we have an enrichment by email endpoint: https://api.crustdata.com/enrichment/email. It may require normalized emails for best results.",
     "fallback": "I'm not sure. Please see the Crustdata docs at https://www.notion.so/crustdata/"
 }
