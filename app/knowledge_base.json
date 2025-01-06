@@ -1,0 +1,16 @@
+{
+    "kb": [
+      {
+        "question": "slack user asked: how to handle normalizing location strings for the region filter?",
+        "answer": "You can use a region parser or mapping function. We store valid region enums in region_list.json. If a user passes 'SF,' convert it to 'San Francisco, California, United States.'"
+      },
+      {
+        "question": "where do i find more doc about screener endpoints from slack channel #api-support?",
+        "answer": "The #api-support Slack channel pinned a link to https://www.notion.so/crustdata/Crustdata-Discovery-And-Enrichment-API. Alternatively, check the official docs site."
+      },
+      {
+        "question": "what if i have a partial email for enrichment?",
+        "answer": "From Slack logs: We recommend a business domain for best results, but partial or gmail addresses may reduce accuracy."
+      }
+    ]
+  }
