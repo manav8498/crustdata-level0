@@ -1,6 +1,6 @@
 "use client"; // enable client-side interactions
 import { useState } from "react";
-import data from "../data.json";
+import data from "./data.json";
 
 export default function HomePage() {
   const [messages, setMessages] = useState([]);
